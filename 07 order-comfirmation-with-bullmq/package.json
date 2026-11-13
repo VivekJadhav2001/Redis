@@ -1,0 +1,14 @@
+{
+  "name": "02-setup-local-redis",
+  "version": "1.0.0",
+  "private": "true",
+  "scripts": {
+    "dev": "node src/api.js"
+  },
+  "dependencies": {
+    "bullmq": "^6.0.8",
+    "express": "^4.18.3",
+    "ioredis": "^5.4.1"
+  },
+  "type": "module"
+}
